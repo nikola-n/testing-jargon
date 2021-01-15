@@ -1,0 +1,22 @@
+{
+    "name": "nikola/testing-jargon",
+    "authors": [
+        {
+            "name": "Nikola",
+            "email": "nikola@thecodeconnectors.nl"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test/"
+        }
+    }
+}
