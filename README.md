@@ -12,3 +12,11 @@ end($items); takes you to the last one: two
 
 If you return next($items) and there is no next 
 output: false;
+
+Call the API request just once, for every other tests
+use Stand-in Dummy.
+
+Test Double 
+- Dummy
+- Mocks
+- Stubs
